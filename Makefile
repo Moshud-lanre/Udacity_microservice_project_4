@@ -26,7 +26,7 @@ lint:
 	# This is linter for Dockerfiles
 	hadolint project-ml-microservice-kubernetes/Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
-	# This should be run from inside a virtualenv
+	# This should be run from inside a virtualenvs
 	#pylint --disable=R,C,W1203,W1202 project-ml-microservice-kubernetes/app.py
 
 all: install lint test
